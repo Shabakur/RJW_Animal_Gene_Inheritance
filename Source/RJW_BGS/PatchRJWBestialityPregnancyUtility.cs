@@ -33,15 +33,16 @@ namespace RJW_BGS
 
                     List<GeneDef> genes = PregnancyUtility.GetInheritedGenes(dad, mother);
                     List<GeneDef> beastgenes = InheritanceUtility.AnimalInheritedGenes(dad, mother);
-
-                    foreach (GeneDef gene in beastgenes)
-                    {
-                        baby.genes.AddGene(gene, false);
-                    }
-                    foreach (GeneDef gene in genes)
-                    {
-                        baby.genes.AddGene(gene, false);
-                    }
+                    InheritanceUtility.AddGenes(baby, beastgenes);
+                    InheritanceUtility.AddGenes(baby, genes);
+                    //foreach (GeneDef gene in beastgenes)
+                    //{
+                    //    baby.genes.AddGene(gene, false);
+                    //}
+                    //foreach (GeneDef gene in genes)
+                    //{
+                    //    baby.genes.AddGene(gene, false);
+                    //}
                 }
             }
         }

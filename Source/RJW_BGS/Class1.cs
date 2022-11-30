@@ -14,17 +14,17 @@ namespace RJW_BGS
         static Class1()
         {
             RJWcopy.Racegroupdictbuilder();
-            foreach (RaceGroupDef raceGroupDef2  in DefDatabase<RaceGroupDef>.AllDefs)      
-            {
+            //foreach (RaceGroupDef raceGroupDef2  in DefDatabase<RaceGroupDef>.AllDefs)      
+            //{
                 //Log.Message("defName = " + raceGroupDef2.defName);
-                if (raceGroupDef2.raceNames != null)
-                {
-                    foreach (string race in raceGroupDef2.raceNames)
-                    {
+            //    if (raceGroupDef2.raceNames != null)
+            //    {
+            //        foreach (string race in raceGroupDef2.raceNames)
+            //        {
                         //Log.Message(race);
-                    }
-                }
-            }
+            //        }
+            //    }
+           //}
         }
     }
 }

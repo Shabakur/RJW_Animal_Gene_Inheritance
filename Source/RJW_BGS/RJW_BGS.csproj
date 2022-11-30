@@ -61,6 +61,7 @@
     <Compile Include="Harmony_Init.cs" />
     <Compile Include="InheritanceUtility.cs" />
     <Compile Include="PatchRJWBestialityPregnancyUtility.cs" />
+    <Compile Include="PatchRJWHediffInsect_Egg.cs" />
     <Compile Include="PatchVanillaPregnancyUtility.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RaceGeneDef.cs" />
