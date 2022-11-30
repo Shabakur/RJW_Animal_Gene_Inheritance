@@ -5,4 +5,4 @@ This mod allows babies to inherit genes from animals. Currently the code is ther
 If you want to add animals and/or genes you can copy and modify racegenedefs.xml in /Defs/RaceGeneDefs. There is a template which explains how it works. 
 
 ##Plans
-- adding more races and genes
+- adding more animals and genes
