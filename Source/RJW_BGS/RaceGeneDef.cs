@@ -14,7 +14,7 @@ namespace RJW_BGS
         public List<string> raceNames;
         public List<string> pawnKindNames;
         public List<string> genes;
-        public List<float> geneweights;
+        public List<float> genechances;
         public String hybridName;
     }
 }

@@ -6,7 +6,7 @@
 		defName can be anything you want, as long as it is unique
 		
 		<raceGroup>Canine_Group</raceGroup>
-		RJW.Racegroupdef, all animals in the raceGroup will be part of this group
+		RJW.Racegroupdef, all animals in the raceGroup will be part of this group, RJW race support uses this so those can be used to quickly add a group
 		
 		<raceNames>
 			<li> </li>
@@ -27,9 +27,9 @@
 		</genes>
 		The genes which may be inherited.
 		
-		<geneweights> 
-			<li>90</li>
-		</geneweights> 
+		<genechances> 
+			<li>0.9</li>
+		</genechances> 
 		WIP, the chance of each gene to be inherited. Is in same order as genes, so for the second gene the chance to inherit is based on the second line in geweights. 
 	</RJW_BGS.RaceGeneDef>
 	

@@ -6,9 +6,9 @@
 		<genes>
 			<li>Ears_Floppy</li>
 		</genes>
-		<geneweights> 
-			<li>90</li>
-		</geneweights> 
+		<genechances> 
+			<li>0.9</li>
+		</genechances> 
 	</RJW_BGS.RaceGeneDef>
 	
 	<RJW_BGS.RaceGeneDef>
@@ -17,9 +17,9 @@
 		<genes>
 			<li>Beauty_Ugly</li>
 		</genes>
-		<geneweights> 
-			<li>50</li>
-		</geneweights> 
+		<genechances> 
+			<li>0.5</li>
+		</genechances> 
 	</RJW_BGS.RaceGeneDef>
 	
 	<RJW_BGS.RaceGeneDef>
@@ -30,11 +30,11 @@
 			<li>Sleepy</li>
 			<li>DarkVision</li>
 		</genes>
-		<geneweights> 
-			<li>90</li>
-			<li>25</li>
-			<li>25</li>
-		</geneweights> 
+		<genechances> 
+			<li>0.9</li>
+			<li>0.25</li>
+			<li>0.25</li>
+		</genechances> 
 	</RJW_BGS.RaceGeneDef>
 <!--	
 	<RJW_BGS.RaceGeneDef>
@@ -43,9 +43,9 @@
 		<genes>
 			<li>Ears_Floppy</li>
 		</genes>
-		<geneweights> 
+		<genechances> 
 			<li>10</li>
-		</geneweights> 
+		</genechances> 
 	</RJW_BGS.RaceGeneDef>
 -->	
 	<RJW_BGS.RaceGeneDef>
@@ -55,10 +55,10 @@
 			<li>Unstoppable</li>
 			<li>Headbone_CenterHorn</li>
 		</genes>
-		<geneweights> 
-			<li>25</li>
-			<li>90</li>
-		</geneweights> 
+		<genechances> 
+			<li>0.25</li>
+			<li>0.9</li>
+		</genechances> 
 	</RJW_BGS.RaceGeneDef>
 	
 	<RJW_BGS.RaceGeneDef>
@@ -67,9 +67,9 @@
 		<genes>
 			<li>Fertile</li>
 		</genes>
-		<geneweights> 
-			<li>10</li>
-		</geneweights> 
+		<genechances> 
+			<li>0.25</li>
+		</genechances> 
 	</RJW_BGS.RaceGeneDef>
 	
 	<RJW_BGS.RaceGeneDef>
@@ -78,9 +78,9 @@
 		<genes>
 			<li>StrongStomach</li>
 		</genes>
-		<geneweights> 
-			<li>50</li>
-		</geneweights> 
+		<genechances> 
+			<li>0.5</li>
+		</genechances> 
 	</RJW_BGS.RaceGeneDef>
 <!--	
 	<RJW_BGS.RaceGeneDef>
@@ -89,9 +89,9 @@
 		<genes>
 			<li>Ears_Floppy</li>
 		</genes>
-		<geneweights> 
+		<genechances> 
 			<li>10</li>
-		</geneweights> 
+		</genechances> 
 	</RJW_BGS.RaceGeneDef>
 -->
 <!--
@@ -101,9 +101,9 @@
 		<genes>
 			<li>Ears_Floppy</li>
 		</genes>
-		<geneweights> 
+		<genechances> 
 			<li>10</li>
-		</geneweights> 
+		</genechances> 
 	</RJW_BGS.RaceGeneDef>
 -->
 </Defs>

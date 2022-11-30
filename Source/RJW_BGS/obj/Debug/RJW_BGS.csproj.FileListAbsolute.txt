@@ -2,3 +2,7 @@ C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\RJW_Bestiality_Gene_
 C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\RJW_Bestiality_Gene_Support\Source\RJW_BGS\obj\Debug\RJW_BGS.csproj.AssemblyReference.cache
 C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\RJW_Bestiality_Gene_Support\Source\RJW_BGS\obj\Debug\RJW_BGS.csproj.CoreCompileInputs.cache
 C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\RJW_Bestiality_Gene_Support\Source\RJW_BGS\obj\Debug\RJW_BGS.dll
+C:\Users\tyrob\OneDrive\Documenten\GitHub\RJW_Animal_Gene_Inheritance\Assemblies\RJW_BGS.dll
+C:\Users\tyrob\OneDrive\Documenten\GitHub\RJW_Animal_Gene_Inheritance\Source\RJW_BGS\obj\Debug\RJW_BGS.csproj.AssemblyReference.cache
+C:\Users\tyrob\OneDrive\Documenten\GitHub\RJW_Animal_Gene_Inheritance\Source\RJW_BGS\obj\Debug\RJW_BGS.csproj.CoreCompileInputs.cache
+C:\Users\tyrob\OneDrive\Documenten\GitHub\RJW_Animal_Gene_Inheritance\Source\RJW_BGS\obj\Debug\RJW_BGS.dll
