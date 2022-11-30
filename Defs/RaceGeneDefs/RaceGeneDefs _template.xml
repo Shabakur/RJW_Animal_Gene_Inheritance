@@ -11,7 +11,7 @@
 		<raceNames>
 			<li> </li>
 		</raceNames>
-		For more direct control you can use raceNames directly. 
+		For more direct control you can use raceNames directly. Use the defName of the animal. Can also use modded animals.
 		
 		<pawnKindNames>
 			<li> </li>
@@ -25,7 +25,7 @@
 		<genes>
 			<li>Ears_Floppy</li>
 		</genes>
-		The genes which may be inherited.
+		The genes which may be inherited. Use the defName of the gene, you can also add modded genes. 
 		
 		<genechances> 
 			<li>0.9</li>
