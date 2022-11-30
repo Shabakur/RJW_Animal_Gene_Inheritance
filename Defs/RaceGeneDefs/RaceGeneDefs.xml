@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<RJW_BGS.RaceGeneDef>
+		<defName>Canine</defName> 
+		<raceGroup>Canine_Group</raceGroup>
+		<genes>
+			<li>Ears_Floppy</li>
+		</genes>
+		<geneweights> 
+			<li>90</li>
+		</geneweights> 
+	</RJW_BGS.RaceGeneDef>
+	
+	<RJW_BGS.RaceGeneDef>
+		<defName>Insect</defName> 
+		<raceGroup>Insect_Group</raceGroup>
+		<genes>
+			<li>Beauty_Ugly</li>
+		</genes>
+		<geneweights> 
+			<li>50</li>
+		</geneweights> 
+	</RJW_BGS.RaceGeneDef>
+	
+	<RJW_BGS.RaceGeneDef>
+		<defName>Feline</defName> 
+		<raceGroup>Feline_Group</raceGroup>
+		<genes>
+			<li>Ears_Cat</li>
+			<li>Sleepy</li>
+			<li>DarkVision</li>
+		</genes>
+		<geneweights> 
+			<li>90</li>
+			<li>25</li>
+			<li>25</li>
+		</geneweights> 
+	</RJW_BGS.RaceGeneDef>
+<!--	
+	<RJW_BGS.RaceGeneDef>
+		<defName>Equine</defName> 
+		<raceGroup>Equine_Group</raceGroup>
+		<genes>
+			<li>Ears_Floppy</li>
+		</genes>
+		<geneweights> 
+			<li>10</li>
+		</geneweights> 
+	</RJW_BGS.RaceGeneDef>
+-->	
+	<RJW_BGS.RaceGeneDef>
+		<defName>Dragon</defName> 
+		<raceGroup>Dragon_Group</raceGroup>
+		<genes>
+			<li>Unstoppable</li>
+			<li>Headbone_CenterHorn</li>
+		</genes>
+		<geneweights> 
+			<li>25</li>
+			<li>90</li>
+		</geneweights> 
+	</RJW_BGS.RaceGeneDef>
+	
+	<RJW_BGS.RaceGeneDef>
+		<defName>Rodent</defName> 
+		<raceGroup>Rodent_Group</raceGroup>
+		<genes>
+			<li>Fertile</li>
+		</genes>
+		<geneweights> 
+			<li>10</li>
+		</geneweights> 
+	</RJW_BGS.RaceGeneDef>
+	
+	<RJW_BGS.RaceGeneDef>
+		<defName>Racoon</defName> 
+		<raceGroup>Raccon_Group</raceGroup>
+		<genes>
+			<li>StrongStomach</li>
+		</genes>
+		<geneweights> 
+			<li>50</li>
+		</geneweights> 
+	</RJW_BGS.RaceGeneDef>
+<!--	
+	<RJW_BGS.RaceGeneDef>
+		<defName>Needle</defName> 
+		<raceGroup>Needle_Group</raceGroup>
+		<genes>
+			<li>Ears_Floppy</li>
+		</genes>
+		<geneweights> 
+			<li>10</li>
+		</geneweights> 
+	</RJW_BGS.RaceGeneDef>
+-->
+<!--
+	<RJW_BGS.RaceGeneDef>
+		<defName>Hemi</defName> 
+		<raceGroup>Hemi_Group</raceGroup>
+		<genes>
+			<li>Ears_Floppy</li>
+		</genes>
+		<geneweights> 
+			<li>10</li>
+		</geneweights> 
+	</RJW_BGS.RaceGeneDef>
+-->
+</Defs>

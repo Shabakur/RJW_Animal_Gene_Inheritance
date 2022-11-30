@@ -1,0 +1,4 @@
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\RJW_Bestiality_Gene_Support\Assemblies\RJW_BGS.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\RJW_Bestiality_Gene_Support\Source\RJW_BGS\obj\Debug\RJW_BGS.csproj.AssemblyReference.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\RJW_Bestiality_Gene_Support\Source\RJW_BGS\obj\Debug\RJW_BGS.csproj.CoreCompileInputs.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\RJW_Bestiality_Gene_Support\Source\RJW_BGS\obj\Debug\RJW_BGS.dll
