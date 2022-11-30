@@ -6,3 +6,6 @@ If you want to add animals and/or genes you can copy and modify racegenedefs.xml
 
 ##Plans
 - adding more animals and genes
+- consider metabolic limits
+- add settings for more ingame control
+- add UI to add animal gene inheritance ingame. 
