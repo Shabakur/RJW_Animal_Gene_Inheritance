@@ -57,7 +57,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
+    <Compile Include="First.cs" />
     <Compile Include="Harmony_Init.cs" />
     <Compile Include="InheritanceUtility.cs" />
     <Compile Include="PatchRJWBestialityPregnancyUtility.cs" />

@@ -34,6 +34,7 @@ namespace RJW_BGS
 			return raceGroupDef != null;
 		}
 
+		//slightly modified code so it also works racegroupdefs
 		public static RaceGroupDef GetRaceGroupDefInternal(PawnKindDef kindDef)
 		{
 			string raceName = kindDef.race.defName;
@@ -71,9 +72,14 @@ namespace RJW_BGS
 
 		public static RaceGeneDef GetRaceGenDefInternal(PawnKindDef kindDef)
         {
+			if (kindDef == null)
+            {
+				return null;
+            }
 			string raceName = kindDef.race.defName;
 			string pawnKindName = kindDef.defName;
-			string raceGroupName = GetRaceGroupDef(kindDef).defName;
+			RaceGroupDef raceGroupDef = GetRaceGroupDef(kindDef);
+			//string raceGroupName = GetRaceGroupDef(kindDef).defName;
 			IEnumerable<RaceGeneDef> allDefs = DefDatabase<RaceGeneDef>.AllDefs;
 			List<RaceGeneDef> list = allDefs.Where(delegate (RaceGeneDef group)
 			{
@@ -85,12 +91,15 @@ namespace RJW_BGS
 				List<string> raceNames = group.raceNames;
 				return raceNames != null && raceNames.Contains(raceName);
 			}).ToList<RaceGeneDef>();
-			List<RaceGeneDef> list3 = allDefs.Where(delegate (RaceGeneDef group)
+			List<RaceGeneDef> list3 = new List<RaceGeneDef>();
+			if (raceGroupDef != null)
 			{
-				String raceGroupDefName = group.raceGroup;
-				return raceGroupDefName != null && raceGroupDefName == raceGroupName;
-			}).ToList<RaceGeneDef>();
-
+				list3 = allDefs.Where(delegate (RaceGeneDef group)
+				{
+					String raceGroupDefName = group.raceGroup;
+					return raceGroupDefName != null && raceGroupDefName == raceGroupDef.defName;
+				}).ToList<RaceGeneDef>();
+			}
 			RaceGeneDef result = null;
 			//First check if there is a matching pawnkinddef then race, then racegroup
 			if (list.Any())

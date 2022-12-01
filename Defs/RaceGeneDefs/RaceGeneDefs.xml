@@ -1,10 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
-	<RJW_BGS.RaceGeneDef>
+	<RJW_BGS.RaceGeneDef Name = "Canine">
 		<defName>Canine</defName> 
 		<raceGroup>Canine_Group</raceGroup>
 		<genes>
 			<li>Ears_Floppy</li>
+		</genes>
+		<genechances> 
+			<li>0.9</li>
+		</genechances> 
+	</RJW_BGS.RaceGeneDef>
+	
+	<RJW_BGS.RaceGeneDef ParentName = "Canine">
+		<defName>Warg</defName>
+		<raceNames>
+			<li>Warg</li>
+		</raceNames>
+		<genes>
+			<li>DarkVision</li>
 		</genes>
 		<genechances> 
 			<li>0.9</li>
