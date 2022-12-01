@@ -24,7 +24,8 @@ namespace RJW_BGS
 
             foreach (CodeInstruction instruction in instructions)
             {
-                if(instruction.opcode == OpCodes.Call && instruction.operand.ToString() == "Void BabyPostBirth(Verse.Pawn, Verse.Pawn, Verse.Pawn)")
+                yield return instruction;
+                if (instruction.opcode == OpCodes.Call && instruction.operand.ToString() == "Void BabyPostBirth(Verse.Pawn, Verse.Pawn, Verse.Pawn)")
                 {
                     yield return new CodeInstruction(OpCodes.Ldloc_0, null);
                     yield return new CodeInstruction(OpCodes.Ldfld, implanter);
@@ -33,7 +34,7 @@ namespace RJW_BGS
                     yield return new CodeInstruction(OpCodes.Ldloc_1, null);
                     yield return new CodeInstruction(OpCodes.Call, newgenes);
                 }
-                yield return instruction;
+                
             }
         }
     }
