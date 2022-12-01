@@ -10,7 +10,7 @@
 			<li>0.9</li>
 		</genechances> 
 	</RJW_BGS.RaceGeneDef>
-	
+<!-- You can use parents to have animals get specific genes in addition to the group.	
 	<RJW_BGS.RaceGeneDef ParentName = "Canine">
 		<defName>Warg</defName>
 		<raceNames>
@@ -23,7 +23,7 @@
 			<li>0.9</li>
 		</genechances> 
 	</RJW_BGS.RaceGeneDef>
-	
+--> 	
 	<RJW_BGS.RaceGeneDef>
 		<defName>Insect</defName> 
 		<raceGroup>Insect_Group</raceGroup>
