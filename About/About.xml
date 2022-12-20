@@ -29,4 +29,7 @@
 		<li>rim.job.world</li>
 		<li>ASMR.RJW.RaceSupport</li>
 	</loadAfter>
+	<incompatibleWith>
+		<li>Vegapnk.rjw.genes</li><!-- Breaks CompHatcher.Hatch preventing eggs hatching -->
+	</incompatibleWith>
 </ModMetaData>
